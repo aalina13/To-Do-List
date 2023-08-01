@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Apple Chancery, cursive;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+}
+
+.list{
+    width: 100%;
+    max-width: 500px;
+    color: #fff;
+    margin: 100px auto 0;  /*centreaza*/
+    text-align: center;    /*centreaza*/
+    background: linear-gradient(to right, rgb(196, 215, 255), rgb(255, 223, 255));
+    border-radius: 20px;
+    border: 0;
+    padding-top: 30px;
+}
+
+.add_task{
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add_task input{
+    border: 0;
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.add_task button{
+    border: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 1%;
+}
+
